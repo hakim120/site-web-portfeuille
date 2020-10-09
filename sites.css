@@ -3,9 +3,7 @@
     padding:0;
     box-sizing: border-box;
 }
-html{
-    font-size:20px;
-}
+
 body{
     font-family:Arial,  sans-serif;
     line-height: 1.4;   
@@ -57,13 +55,11 @@ transition: background-color 0.3s;
 #showcase 
 {
     background:url(../sitees/cafe.jpg) no-repeat center center/cover;
-    height: 80.7vh;
+    height: 91.7vh;
 
 }
-.showspace-centent
-{
-    display:flex;
-}
+
+
 .showcase-content {
     display:flex;
     flex-direction:column;
@@ -102,13 +98,50 @@ transition: background-color 0.3s;
     border-radius: 10px;
 
 }
-img {
-    position: absolute;
-    right:1100px;
-    top:360px;
-    border:3px
+#about {
+    padding:5rem 0;
+    }
+    #about h2{
+    text-align:center;
+    font-size:3rem;
+    margin-bottom:1re;
+    }
+    #about h3{
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+    
+#about p.lead{
+    margin-bottom: 1rem;
+}
+#about .about-content{
+    display: flex;
+}
+#about .about-text,
+#about .about-image{
+    flex :1;
 
+}
+#about .about-text{
+    text-align:center;
+}
+
+#about .about-image img{
+    display :block;
+    margin-left:auto;
+    width:30%;
+    border-radius:40%;
+    margin-top:60px;
+}
+.flex-container {
+    display: flex;
+    margin: 150px;
+    justify-content: space-between;
   }
-
-
+  
+  div.a {
+    text-align: center;
+  } 
+  
+  
  
